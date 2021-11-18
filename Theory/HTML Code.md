@@ -1,4 +1,4 @@
-# HTML Code for Raspberry Pi controlled Robot 
+# HTML Code for Surveillance Robot 
 
 A webpage is created using HTML to control the robot and for displaying the video feed. In this HTML code, we have assigned different integers for different direction buttons. 
 For example, 1 for Forward and 2 for Left. So whenever the Forward button is pressed on the web page, it will send 1.
