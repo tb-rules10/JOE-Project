@@ -11,11 +11,11 @@ GPIO.setup(mA1, GPIO.OUT)
 GPIO.setup(mA2, GPIO.OUT)
 GPIO.setup(mB1, GPIO.OUT)
 GPIO.setup(mB2, GPIO.OUT)
-GPIOcd surcd desk.output(mA1 , 0)
+GPIO.output(mA1 , 0)
 GPIO.output(mA2 , 0)
 GPIO.output(mB1, 0)
 GPIO.output(mB2, 0)
-app = Flask(_name_) #set up flask server
+app = Flask(__name__) #set up flask server
 #when the root IP is selected, return index.html page
 @app.route('/')
 def index():
