@@ -22,4 +22,4 @@ We will use the HTML code and make a server which would help us to  control the 
 #### Step 4 : [Python Code for our Robot](https://github.com/tb-rules10/JOE-Project/blob/main/Theory/Python%20Code.md)
 
 
-#### Step 5 : [Testing the IoT controlled Robot]()
+#### Step 5 : [Testing the IoT controlled Robot](https://github.com/tb-rules10/JOE-Project/blob/main/Theory/Testing%20the%20IoT%20controlled%20Robot.md)
