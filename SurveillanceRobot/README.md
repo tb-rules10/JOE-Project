@@ -1,3 +1,3 @@
-### This folder contains the HTML Code for controlling the robot from a web server.
+### Raspberry-Pi Code
 
-![image](https://user-images.githubusercontent.com/58645688/150634791-3a695094-6755-4fbf-a524-6b156c06f836.png)
+![image](https://user-images.githubusercontent.com/58645688/150840988-6c0508e5-6cab-4554-bcfe-3292bb26ea3d.png)
