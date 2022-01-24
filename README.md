@@ -16,10 +16,11 @@ We will use the HTML code and make a server which would help us to  control the 
 
 #### Step 2 : [Installing ‘Motion’ in Raspberry Pi for Video feed](https://github.com/tb-rules10/JOE-Project/blob/main/Theory/Installing%20%E2%80%98Motion%E2%80%99%20in%20Raspberry%20Pi.md)
 
-#### Step 3 : [Python Code for our Robot](https://github.com/tb-rules10/JOE-Project/blob/main/Theory/Python%20Code.md)
 
-#### Step 4 : [Object & Animal Detection Code](https://github.com/tb-rules10/JOE-Project/tree/main/Object%20%26%20Animal%20Detection)
+#### Step 3 : [HTML Code for our Robot](https://github.com/tb-rules10/JOE-Project/blob/main/Theory/HTML%20Code.md)
 
-#### Step 5 : [HTML Code for our Robot](https://github.com/tb-rules10/JOE-Project/blob/main/Theory/HTML%20Code.md)
+#### Step 4 : [Python Code for our Robot](https://github.com/tb-rules10/JOE-Project/blob/main/Theory/Python%20Code.md)
+
+#### Step 5 : [Object & Animal Detection Code](https://github.com/tb-rules10/JOE-Project/tree/main/Object%20%26%20Animal%20Detection)
 
 #### Step 6 : [Testing the IoT controlled Robot](https://github.com/tb-rules10/JOE-Project/blob/main/Theory/Testing%20the%20IoT%20controlled%20Robot.md)
