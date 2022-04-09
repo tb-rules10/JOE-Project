@@ -28,25 +28,25 @@ def index():
 def reroute(changepin):
     changePin = int(changepin) #cast changepin to an int
     if changePin == 1:
-        print "Left"
+        print ("Left")
                 GPIO.output(mA1 , 0)
                 GPIO.output(mA2 , 0)
                 GPIO.output(mB1 , 1)
                 GPIO.output(mB2 , 0)
     elif changePin == 2:
-        print "Forward"
+        print ("Forward")
                 GPIO.output(mA1 , 1)
                 GPIO.output(mA2 , 0)
                 GPIO.output(mB1 , 1)
                 GPIO.output(mB2 , 0)
     elif changePin == 3:
-        print "Right"
+        print ("Right")
                 GPIO.output(mA1 , 1)
                 GPIO.output(mA2 , 0)
                 GPIO.output(mB1 , 0)
                 GPIO.output(mB2 , 0)
     elif changePin == 4:
-        print "Reverse"
+        print ("Reverse")
                 GPIO.output(mA1 , 0)
                 GPIO.output(mA2 , 1)
                 GPIO.output(mB1 , 0)
