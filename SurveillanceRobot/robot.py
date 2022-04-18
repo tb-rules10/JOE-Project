@@ -52,6 +52,7 @@ def reroute(changepin):
                 GPIO.output(mB1 , 0)
                 GPIO.output(mB2 , 1)
     elif changePin == 3:
+        print("Stop")
                 GPIO.output(mA1 , 0)
                 GPIO.output(mA2 , 0)
                 GPIO.output(mB1 , 0)
