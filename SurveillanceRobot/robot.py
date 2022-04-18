@@ -27,31 +27,31 @@ def index():
 @app.route('/<changepin>', methods=['POST'])
 def reroute(changepin):
     changePin = int(changepin) #cast changepin to an int
-    if changePin == 1:
+    if changePin == 2:
                 print ("Left")
                 GPIO.output(mA1 , 0)
-                GPIO.output(mA2 , 0)
+                GPIO.output(mA2 , 1)
                 GPIO.output(mB1 , 1)
                 GPIO.output(mB2 , 0)
-    elif changePin == 2:
+    elif changePin == 1:
                 print ("Forward")
                 GPIO.output(mA1 , 1)
                 GPIO.output(mA2 , 0)
                 GPIO.output(mB1 , 1)
                 GPIO.output(mB2 , 0)
-    elif changePin == 3:
+    elif changePin == 4:
                 print ("Right")
                 GPIO.output(mA1 , 1)
                 GPIO.output(mA2 , 0)
                 GPIO.output(mB1 , 0)
-                GPIO.output(mB2 , 0)
-    elif changePin == 4:
+                GPIO.output(mB2 , 1)
+    elif changePin == 5:
                 print ("Reverse")
                 GPIO.output(mA1 , 0)
                 GPIO.output(mA2 , 1)
                 GPIO.output(mB1 , 0)
                 GPIO.output(mB2 , 1)
-    else:
+    elif changePin == 3:
                 GPIO.output(mA1 , 0)
                 GPIO.output(mA2 , 0)
                 GPIO.output(mB1 , 0)
