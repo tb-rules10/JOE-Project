@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, make_response
 import time
 import RPi.GPIO as GPIO
-import time
 import camera from VideoCamera
 mA1=18
 mA2=23
@@ -22,10 +21,14 @@ app = Flask(_name_) #set up flask server
 @app.route('/')
 def index():
     return render_template('index.html')
-#recieve which pin to change from the button press on index.html
-#each button returns a number that triggers a command in this function
-#
-#Uses methods from motors.py to send commands to the GPIO to operate the motors
+def gen(camera):
+    while True:
+        #get camera frame
+        frame = camera.get_frame()
+        yield (b'--frame\r\n'b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
+@app.route('/video_feed')
+def video_feed():
+    return Response(gen(VideoCamera()),mimetype='multipart/x-mixed-replace; boundary=frame')
 @app.route('/<changepin>', methods=['POST'])
 def reroute(changepin):
     changePin = int(changepin) #cast changepin to an int
