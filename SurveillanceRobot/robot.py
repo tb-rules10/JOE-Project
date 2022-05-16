@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for, make_response
 import time
 import RPi.GPIO as GPIO
+import time
+import camera from VideoCamera
 mA1=18
 mA2=23
 mB1=24
@@ -15,7 +17,7 @@ GPIO.output(mA1 , 0)
 GPIO.output(mA2 , 0)
 GPIO.output(mB1, 0)
 GPIO.output(mB2, 0)
-app = Flask(__name__) #set up flask server
+app = Flask(_name_) #set up flask server
 #when the root IP is selected, return index.html page
 @app.route('/')
 def index():
@@ -29,9 +31,9 @@ def reroute(changepin):
     changePin = int(changepin) #cast changepin to an int
     if changePin == 2:
                 print ("Left")
-                GPIO.output(mA1 , 0)
-                GPIO.output(mA2 , 1)
-                GPIO.output(mB1 , 1)
+                GPIO.output(mA1 , 1)
+                GPIO.output(mA2 , 0)
+                GPIO.output(mB1 , 0)
                 GPIO.output(mB2 , 0)
     elif changePin == 1:
                 print ("Forward")
@@ -41,10 +43,10 @@ def reroute(changepin):
                 GPIO.output(mB2 , 0)
     elif changePin == 4:
                 print ("Right")
-                GPIO.output(mA1 , 1)
+                GPIO.output(mA1 , 0)
                 GPIO.output(mA2 , 0)
-                GPIO.output(mB1 , 0)
-                GPIO.output(mB2 , 1)
+                GPIO.output(mB1 , 1)
+                GPIO.output(mB2 , 0)
     elif changePin == 5:
                 print ("Reverse")
                 GPIO.output(mA1 , 0)
@@ -52,7 +54,7 @@ def reroute(changepin):
                 GPIO.output(mB1 , 0)
                 GPIO.output(mB2 , 1)
     elif changePin == 3:
-        print("Stop")
+                print("Stop")
                 GPIO.output(mA1 , 0)
                 GPIO.output(mA2 , 0)
                 GPIO.output(mB1 , 0)
