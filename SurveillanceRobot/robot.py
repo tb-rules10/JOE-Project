@@ -64,4 +64,5 @@ def reroute(changepin):
                 GPIO.output(mB2 , 0)
     response = make_response(redirect(url_for('index')))
     return(response)
-app.run(debug=True, host='0.0.0.0', port=8000) #set up the server in debug mode to the port 8000
+if _name_ == '_main_':
+  app.run(host='0.0.0.0', port='8000',debug=True)
