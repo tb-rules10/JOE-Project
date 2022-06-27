@@ -2,7 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/58645688/142217760-e97f8735-d3ff-4eac-ae58-7edb7db9593e.png)
 
-[Click here to see our prototype.]()
+[Click here to see the prototype of our robot.](https://raw.githubusercontent.com/tb-rules10/JOE-Project/main/robot.png)
 
 ## Proposed Methodology
 
@@ -25,3 +25,4 @@ We will use the HTML code and make a server which would help us to  control the 
 #### Step 5 : [Object & Animal Detection Code](https://github.com/tb-rules10/JOE-Project/tree/main/Object%20%26%20Animal%20Detection)
 
 #### Step 6 : [Testing the IoT controlled Robot](https://github.com/tb-rules10/JOE-Project/blob/main/Theory/Testing%20the%20IoT%20controlled%20Robot.md)
+
