@@ -13,7 +13,7 @@ We will use the HTML code and make a server which would help us to  control the 
 
 #### Circuit Diagram for [Raspberry Pi based Surveillance Robot](https://github.com/tb-rules10/JOE-Project/blob/main/Theory/Circuit%20Diagram.md)
 
-#### Step 1 : [Interfacing Pi Camera with Raspberry Pi 4](https://github.com/tb-rules10/JOE-Project/blob/main/Theory/Interfacing%20Pi%20Camera%20with%20Raspberry%20Pi%204.md)
+#### Step 1 : [Interfacing Camera Module with Raspberry Pi 4](https://github.com/tb-rules10/JOE-Project/blob/main/Theory/Interfacing%20Pi%20Camera%20with%20Raspberry%20Pi%204.md)
 
 #### Step 2 : [Installing ‘Motion’ in Raspberry Pi for Video feed](https://github.com/tb-rules10/JOE-Project/blob/main/Theory/Installing%20%E2%80%98Motion%E2%80%99%20in%20Raspberry%20Pi.md)
 
