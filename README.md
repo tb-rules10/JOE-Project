@@ -1,26 +1,3 @@
-![IMG_20220526_220543](https://user-images.githubusercontent.com/58645688/170580491-a233136e-7d4a-4bc7-9f21-ebaaed5831de.jpg)
-
-![IMG_20220526_235119](https://user-images.githubusercontent.com/58645688/170580612-ad271bd0-87d3-4551-8262-0cda9f67d75a.jpg)
-
-
-![IMG_20220527_011728](https://user-images.githubusercontent.com/58645688/170580785-ba89409e-1802-4448-9ce3-64cc38e49811.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # JOE-Project
 
 ![image](https://user-images.githubusercontent.com/58645688/142217760-e97f8735-d3ff-4eac-ae58-7edb7db9593e.png)
