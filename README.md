@@ -2,6 +2,8 @@
 
 ![image](https://user-images.githubusercontent.com/58645688/142217760-e97f8735-d3ff-4eac-ae58-7edb7db9593e.png)
 
+[Click here to see our prototype.]()
+
 ## Proposed Methodology
 
 Firstly we will set up a Raspberry Pl and install ‘Motion’ in Raspberry Pi for video feed along with an appropriate camera, after which we will work with the required hardware components and build a prototype. 
