@@ -13,3 +13,14 @@
 ` raspistill -o image.jpg`
 
 ### If you get an image in Pi directory, then you are ready to go else check your camera strip and camera module.
+<hr>
+
+# USB Camera:
+
+1. If you don’t have Pi Camera, a USB camera can also be used. Just install some packages to enable the webcam functionalities. Install the package using below command
+
+`sudo apt-get install fswebcam `
+ 
+2. Now, check for the working of the camera by capturing a photo using the following command
+
+`fswebcam image.jpg`
