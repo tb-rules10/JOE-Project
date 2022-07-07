@@ -2,6 +2,8 @@
 
 ![image](https://user-images.githubusercontent.com/58645688/142217760-e97f8735-d3ff-4eac-ae58-7edb7db9593e.png)
 
+We have created a Surveillance Robot, which can be controlled remotely with help of a web server, which provides us with the control module and live video feed coming from our robot.
+
 [Click here to see the prototype of our robot.](https://raw.githubusercontent.com/tb-rules10/JOE-Project/main/robot.png)
 
 ## Proposed Methodology
